@@ -9,7 +9,7 @@
 Go to the Releases tab and download either the 64-bit or 32-bit version, depending on your OS architecture.
 
 # Running the app
-%programfiles%\Orange Group Tech\ClickityClick.exe
+%programfiles%\Orange Group\ClickityClick.exe
 
 # Known Issues
 None rn
