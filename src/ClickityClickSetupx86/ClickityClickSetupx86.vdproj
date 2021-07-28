@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_86719D8517E542358F3D4B3563927F30"
+        "MsmKey" = "8:_A7FBAF19373F452B976097D24E75884B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -28,7 +28,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_86719D8517E542358F3D4B3563927F30"
+        "OwnerKey" = "8:_A7FBAF19373F452B976097D24E75884B"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -80,6 +80,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -110,14 +118,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_86719D8517E542358F3D4B3563927F30"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A7FBAF19373F452B976097D24E75884B"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:ClickityClick, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_86719D8517E542358F3D4B3563927F30"
+                    "_A7FBAF19373F452B976097D24E75884B"
                     {
                     "Name" = "8:ClickityClick.exe"
                     "Attributes" = "3:512"
@@ -262,7 +270,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Clickity Click (x86)"
         "ProductCode" = "8:{C7259F07-2D11-44BF-8CC3-3D44A1D701B8}"
-        "PackageCode" = "8:{F98EAFF2-15E9-4F07-8FDB-ABB1CC8F3551}"
+        "PackageCode" = "8:{4350AA54-BC8D-4254-BE91-950ED1072105}"
         "UpgradeCode" = "8:{F4BF2B1E-E5D0-47F4-B2AD-26C63DA7115B}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -390,7 +398,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_86719D8517E542358F3D4B3563927F30"
+            "Target" = "8:_A7FBAF19373F452B976097D24E75884B"
             "Folder" = "8:_43DB3F39DB4D45B69E9F2BF0104ED4D8"
             "WorkingFolder" = "8:_5AC2820C2002490585615657CE3845DA"
             "Icon" = "8:_A9B99B2323DE4C739877908089CBCB2D"
@@ -404,10 +412,10 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_86719D8517E542358F3D4B3563927F30"
+            "Target" = "8:_A7FBAF19373F452B976097D24E75884B"
             "Folder" = "8:_1D59C9F9FD7B4348A79B4260E7C9997B"
             "WorkingFolder" = "8:_5AC2820C2002490585615657CE3845DA"
-            "Icon" = "8:"
+            "Icon" = "8:_A9B99B2323DE4C739877908089CBCB2D"
             "Feature" = "8:"
             }
         }

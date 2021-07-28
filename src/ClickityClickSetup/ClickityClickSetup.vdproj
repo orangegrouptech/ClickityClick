@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_34A2B9176D974A55A2EE7672AAD039FB"
+        "MsmKey" = "8:_174C0D67C5CF498B98F639B86B27AF0E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -28,7 +28,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_34A2B9176D974A55A2EE7672AAD039FB"
+        "OwnerKey" = "8:_174C0D67C5CF498B98F639B86B27AF0E"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -49,6 +49,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -65,6 +73,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -94,14 +118,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_34A2B9176D974A55A2EE7672AAD039FB"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_174C0D67C5CF498B98F639B86B27AF0E"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:ClickityClick, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_34A2B9176D974A55A2EE7672AAD039FB"
+                    "_174C0D67C5CF498B98F639B86B27AF0E"
                     {
                     "Name" = "8:ClickityClick.exe"
                     "Attributes" = "3:512"
@@ -246,7 +270,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Clickity Click"
         "ProductCode" = "8:{EF59D2C7-CC32-4462-A5D0-0D4FCD3D5FD1}"
-        "PackageCode" = "8:{19817D7C-B465-4DE3-8366-2A51E0405D65}"
+        "PackageCode" = "8:{D7A93EC6-5CAC-4658-BB87-437099C39BF0}"
         "UpgradeCode" = "8:{87F0A397-64A4-4B32-B326-0D3979F04BBF}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -366,7 +390,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_56B2567F9E8948C2BE530C40CDAB69D5"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3242F63EC1D041AF83AC4B04CF76DC58"
             {
             "Name" = "8:Clickity Click"
             "Arguments" = "8:"
@@ -374,13 +398,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_34A2B9176D974A55A2EE7672AAD039FB"
+            "Target" = "8:_174C0D67C5CF498B98F639B86B27AF0E"
             "Folder" = "8:_51BF5E637E3D46938D975A8C3A549294"
             "WorkingFolder" = "8:_212023EA7A154375AC113045D4F7C5C3"
             "Icon" = "8:_7EBEBFDC07794B55B20C6650E20390A8"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5B0DAF8570A94301A09D0D3ACCD50676"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8A269B64A8994FF4BBC022367961D013"
             {
             "Name" = "8:Clickity Click"
             "Arguments" = "8:"
@@ -388,7 +412,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_34A2B9176D974A55A2EE7672AAD039FB"
+            "Target" = "8:_174C0D67C5CF498B98F639B86B27AF0E"
             "Folder" = "8:_16E71FEDF2184CEBA5A2089D4B738570"
             "WorkingFolder" = "8:_212023EA7A154375AC113045D4F7C5C3"
             "Icon" = "8:_7EBEBFDC07794B55B20C6650E20390A8"
