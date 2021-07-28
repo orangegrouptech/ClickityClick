@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_A39629D2486E4078B3C11ABCC35B847E"
+        "MsmKey" = "8:_86719D8517E542358F3D4B3563927F30"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -28,7 +28,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A39629D2486E4078B3C11ABCC35B847E"
+        "OwnerKey" = "8:_86719D8517E542358F3D4B3563927F30"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -49,6 +49,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -65,6 +73,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -94,14 +110,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A39629D2486E4078B3C11ABCC35B847E"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_86719D8517E542358F3D4B3563927F30"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:ClickityClick, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_A39629D2486E4078B3C11ABCC35B847E"
+                    "_86719D8517E542358F3D4B3563927F30"
                     {
                     "Name" = "8:ClickityClick.exe"
                     "Attributes" = "3:512"
@@ -151,6 +167,50 @@
         }
         "Folder"
         {
+            "{1525181F-901A-416C-8A58-119130FE478E}:_29D0C20839C34576ADDD436149FEEF75"
+            {
+            "Name" = "8:#1921"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:StartMenuFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_E46C3FF2B12245D095BE66756020ECB6"
+                    {
+                    "Name" = "8:Programs"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_86BCBA2733A443339D4330A914D9991C"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_0A20EEC6273E4B59989BA95DA7F62FC7"
+                            {
+                            "Name" = "8:Orange Group"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_316E483BD646402099F3F4BAE83C4C53"
+                                "Folders"
+                                {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_1D59C9F9FD7B4348A79B4260E7C9997B"
+                                    {
+                                    "Name" = "8:Clickity Click"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_48DACE60F1554555B9A86B155746CADA"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             "{1525181F-901A-416C-8A58-119130FE478E}:_43DB3F39DB4D45B69E9F2BF0104ED4D8"
             {
             "Name" = "8:#1916"
@@ -202,7 +262,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Clickity Click (x86)"
         "ProductCode" = "8:{C7259F07-2D11-44BF-8CC3-3D44A1D701B8}"
-        "PackageCode" = "8:{530CB0D9-AAB7-4F71-9998-AC94394E24A1}"
+        "PackageCode" = "8:{F98EAFF2-15E9-4F07-8FDB-ABB1CC8F3551}"
         "UpgradeCode" = "8:{F4BF2B1E-E5D0-47F4-B2AD-26C63DA7115B}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -210,16 +270,16 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Orange Group Tech"
+        "Manufacturer" = "8:Orange Group"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:Clickity Click Setup (x86)"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Orange Group Tech"
+        "ARPCONTACT" = "8:Orange Group"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_A9B99B2323DE4C739877908089CBCB2D"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -322,6 +382,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_20D6201A310B47549F69E7E67AA0A28D"
+            {
+            "Name" = "8:Clickity Click"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_86719D8517E542358F3D4B3563927F30"
+            "Folder" = "8:_43DB3F39DB4D45B69E9F2BF0104ED4D8"
+            "WorkingFolder" = "8:_5AC2820C2002490585615657CE3845DA"
+            "Icon" = "8:_A9B99B2323DE4C739877908089CBCB2D"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B3511D5F5F11439F9741B931893EC951"
+            {
+            "Name" = "8:Clickity Click"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_86719D8517E542358F3D4B3563927F30"
+            "Folder" = "8:_1D59C9F9FD7B4348A79B4260E7C9997B"
+            "WorkingFolder" = "8:_5AC2820C2002490585615657CE3845DA"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {

@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_74F04504C44D46F6B693AFD0D172AC22"
+        "MsmKey" = "8:_34A2B9176D974A55A2EE7672AAD039FB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -28,7 +28,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_74F04504C44D46F6B693AFD0D172AC22"
+        "OwnerKey" = "8:_34A2B9176D974A55A2EE7672AAD039FB"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -94,14 +94,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_74F04504C44D46F6B693AFD0D172AC22"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_34A2B9176D974A55A2EE7672AAD039FB"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:ClickityClick, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_74F04504C44D46F6B693AFD0D172AC22"
+                    "_34A2B9176D974A55A2EE7672AAD039FB"
                     {
                     "Name" = "8:ClickityClick.exe"
                     "Attributes" = "3:512"
@@ -174,6 +174,50 @@
                 {
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_D0712B2601A3432C9FFCB7BD518BC31C"
+            {
+            "Name" = "8:#1921"
+            "AlwaysCreate" = "11:TRUE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:StartMenuFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_89A848D8B9BA4DEDA3166DB7C5E6BCD7"
+                    {
+                    "Name" = "8:Programs"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_F6857B7D0DDC4F828A9F74C75917432E"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_448326B27770475AAA0890E0069E8EC1"
+                            {
+                            "Name" = "8:Orange Group"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_B7759435E3794DC492894762F18B70CB"
+                                "Folders"
+                                {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_51BF5E637E3D46938D975A8C3A549294"
+                                    {
+                                    "Name" = "8:Clickity Click"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_21E7C4A7F75A496A85C7122DDC03084F"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             "{1525181F-901A-416C-8A58-119130FE478E}:_F9A5C4541FFB4BA7898C8BB7622528C0"
             {
             "Name" = "8:#1919"
@@ -202,7 +246,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Clickity Click"
         "ProductCode" = "8:{EF59D2C7-CC32-4462-A5D0-0D4FCD3D5FD1}"
-        "PackageCode" = "8:{5EB33EEF-9BE6-4FCB-B4D5-458C798049D2}"
+        "PackageCode" = "8:{19817D7C-B465-4DE3-8366-2A51E0405D65}"
         "UpgradeCode" = "8:{87F0A397-64A4-4B32-B326-0D3979F04BBF}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -210,12 +254,12 @@
         "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Orange Group Tech"
+        "Manufacturer" = "8:Orange Group"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:Clickity Click Setup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Orange Group Tech"
+        "ARPCONTACT" = "8:Orange Group"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Install Clickity Click onto your computer."
         "ARPURLINFOABOUT" = "8:"
@@ -322,6 +366,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_56B2567F9E8948C2BE530C40CDAB69D5"
+            {
+            "Name" = "8:Clickity Click"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_34A2B9176D974A55A2EE7672AAD039FB"
+            "Folder" = "8:_51BF5E637E3D46938D975A8C3A549294"
+            "WorkingFolder" = "8:_212023EA7A154375AC113045D4F7C5C3"
+            "Icon" = "8:_7EBEBFDC07794B55B20C6650E20390A8"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_5B0DAF8570A94301A09D0D3ACCD50676"
+            {
+            "Name" = "8:Clickity Click"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_34A2B9176D974A55A2EE7672AAD039FB"
+            "Folder" = "8:_16E71FEDF2184CEBA5A2089D4B738570"
+            "WorkingFolder" = "8:_212023EA7A154375AC113045D4F7C5C3"
+            "Icon" = "8:_7EBEBFDC07794B55B20C6650E20390A8"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
